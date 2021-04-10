@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Ejiro Asiuwhu">
+  <meta name="keywords"
+    content="Movies, Hollywood movies, search movie, movie finder, favourite movies, popular moives">
+  <meta name="description" content="An app for movie lovers; find your favourite movies">
+  <!-- App meta tags -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="iMovie">
+  <meta name="apple-mobile-web-app-title" content="iMovie">
+  <meta name="theme-color" content="#004445">
+  <meta name="msapplication-navbutton-color" content="#004445">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="./assets/favicon/favicon.ico" color="#004445">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <title>PWA &verbar; MOVIES PWA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>MOVIES PWA</h1>
+
+    <form>
+      <div class="form-group">
+        <input type="text" id="inputValue" placeholder="Buscar..." />
+      </div>
+
+      <button type="submit" id="search">BUSCA TU PELICULA PREFERIDA</button>
+      <p id="movie-category">
+        
+      </p>
+    </form>
+    <div id="movie-display"></div>
+    <h3></h3>
+    <div id="movie-container"></div>
+  </div>
+
+  <script src="./assets/js/apiTransaction.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
